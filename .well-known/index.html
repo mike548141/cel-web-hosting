@@ -1,6 +1,61 @@
-The .well-known folder is a standardized directory on a web server that stores site-wide metadata for various web protocols and security purposes. It is most commonly used to verify domain ownership for an SSL certificate by holding a validation file, but it also stores other important information, such as security policies and service discovery information. 
-Key functions of the .well-known folder
-SSL Certificate Verification: When ordering an SSL certificate, you may be required to create a .well-known directory in your website's root folder and upload a specific text file to it. A certificate authority (CA) will then check for the file at a specific URL to verify your ownership of the domain.
-Metadata and Service Discovery: The folder acts as a standardized location for web-based protocols to find site-wide information before making a request. This can include information about security policies, such as the Robots Exclusion Protocol, and other service-related metadata.
-Security and Authentication: It serves as an endpoint for authentication and can store security policy files.
-Third-party Integrations: It provides a reliable interface for third-party services to access necessary configuration or information about your site.
+<section style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto;">
+  <h1 style="font-size: 1.8rem; margin-bottom: 0.5rem;">
+    What is the <code>.well-known</code> Folder?
+  </h1>
+
+  <p>
+    The <code>.well-known</code> folder is a standardized directory on a web server that stores
+    site-wide metadata for various web protocols and security purposes.
+    It is most commonly used to verify domain ownership for an SSL certificate by holding a
+    validation file, but it also stores other important information, such as security policies
+    and service discovery information.
+  </p>
+
+  <h2 style="font-size: 1.4rem; margin-top: 1.5rem;">
+    Key Functions of the <code>.well-known</code> Folder
+  </h2>
+
+  <ul style="padding-left: 1.2rem;">
+    <li style="margin-bottom: 1rem;">
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">
+        SSL Certificate Verification
+      </h3>
+      <p style="margin: 0;">
+        When ordering an SSL certificate, you may be required to create a
+        <code>.well-known</code> directory in your website's root folder and upload a specific
+        text file to it. A certificate authority (CA) will then check for the file at a specific
+        URL to verify your ownership of the domain.
+      </p>
+    </li>
+
+    <li style="margin-bottom: 1rem;">
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">
+        Metadata and Service Discovery
+      </h3>
+      <p style="margin: 0;">
+        The folder acts as a standardized location for web-based protocols to find site-wide
+        information before making a request. This can include information about security policies,
+        such as the Robots Exclusion Protocol, and other service-related metadata.
+      </p>
+    </li>
+
+    <li style="margin-bottom: 1rem;">
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">
+        Security and Authentication
+      </h3>
+      <p style="margin: 0;">
+        It serves as an endpoint for authentication and can store security policy files.
+      </p>
+    </li>
+
+    <li style="margin-bottom: 1rem;">
+      <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">
+        Third-party Integrations
+      </h3>
+      <p style="margin: 0;">
+        It provides a reliable interface for third-party services to access necessary configuration
+        or information about your site.
+      </p>
+    </li>
+  </ul>
+</section>
