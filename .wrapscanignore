@@ -1,0 +1,5 @@
+# Paths exempt from wrapscan (fnmatch globs; one per line, from the repo root).
+# The session log is one dated entry per line by design (grep-ability, one
+# record per line in a diff), so its index and detail files are not wrapped prose.
+docs/SESSIONS.md
+docs/sessions/
